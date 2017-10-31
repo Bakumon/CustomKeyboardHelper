@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/keyboard_seven_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/keyboard_four_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/keyboard_one_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/keyboard_dot_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="."
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/keyboard_eight_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/keyboard_five_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/keyboard_two_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/keyboard_zero_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/keyboard_nine_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/keyboard_six_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <TextView
+                android:id="@+id/keyboard_three_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/black33"
+                android:textSize="55px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <ImageView
+                android:id="@+id/keyboard_delete_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_white_gary"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="60px"
+                android:src="@mipmap/icon_keyborad_delete" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+    </LinearLayout>
+</layout>
