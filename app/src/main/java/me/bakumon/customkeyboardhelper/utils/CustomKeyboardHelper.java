@@ -11,8 +11,9 @@ import java.lang.reflect.Method;
 
 /**
  * 自定义键盘帮助类
+ * https://github.com/Bakumon/CustomKeyboardHelper
  *
- * @author Bakumon
+ * @author Bakumon https://bakumon.me
  * @date 2017/10/31
  */
 
@@ -91,10 +92,11 @@ public class CustomKeyboardHelper {
      * 设置删除键
      */
     public CustomKeyboardHelper setDeleteView(final View deleteView) {
+        final EditText target = mEditText.get();
         deleteView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                EditText target = mEditText.get();
+
                 if (target != null) {
                     StringBuilder sb = new StringBuilder(target.getText().toString().trim());
                     if (sb.length() > 0) {
@@ -115,6 +117,19 @@ public class CustomKeyboardHelper {
                         }
                     }
                 }
+            }
+        });
+        deleteView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                if (target != null) {
+                    StringBuilder sb = new StringBuilder(target.getText().toString().trim());
+                    if (sb.length() > 0) {
+                        target.setText("");
+                        target.setSelection(0);
+                    }
+                }
+                return false;
             }
         });
         return this;
